@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'pages/home'
+  get 'pages/contact'
+
   resources :tweets
   resources :users
   # The priority is based upon order of creation: first created -> highest priority.
